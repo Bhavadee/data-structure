@@ -12,6 +12,7 @@ def qucik_sort(a,l,n):
             temp = a[i]
             a[i] = a[j]
             a[j] = temp
+            temp = 0
             
     temp = a[j]
     a[j] = a[l]
